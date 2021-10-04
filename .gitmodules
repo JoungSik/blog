@@ -1,0 +1,3 @@
+[submodule "themes/github-style"]
+	path = themes/github-style
+	url = git@github.com:JoungSik/github-style.git

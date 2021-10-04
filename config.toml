@@ -1,0 +1,24 @@
+baseURL = 'http://example.org/'
+languageCode = 'ko-kr'
+title = 'JoungSik'
+theme = "github-style"
+googleAnalytics = "G-DL4SWDGV72"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  author = "JoungSik"
+  description = "Software Developer"
+  github = "JoungSik"
+  facebook = "MeiK2333"
+  instagram = "MeiK2333"
+  linkedin = "joungsik"
+  email = "tjstlr2010@gmail.com"
+  url = "https://joungsik.github.io"
+  keywords = "blog"
+  lastmod = true
+  favicon = "/images/github.png"
+  location = "Seoul"
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
