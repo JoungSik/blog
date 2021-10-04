@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://joungsik.github.io/'
 languageCode = 'ko-kr'
 title = 'JoungSik'
 theme = "github-style"
