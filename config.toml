@@ -9,6 +9,7 @@ pygmentsUseClasses = true
 [params]
   author = "JoungSik"
   description = "Software Developer"
+  avatar = "https://avatars.githubusercontent.com/u/6128807?v=4"
   github = "JoungSik"
   facebook = "100002406291053"
   instagram = "joungsik_kim"
