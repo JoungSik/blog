@@ -4,5 +4,7 @@ date: {{ .Date }}
 draft: true
 pin: true
 summary: ""
+keywords: [""]
+tags: [""]
 ---
 
