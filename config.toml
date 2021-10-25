@@ -23,3 +23,12 @@ pygmentsUseClasses = true
 
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
+
+# robots.txt
+enableRobotsTXT = true
+
+# sitemap 생성
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
