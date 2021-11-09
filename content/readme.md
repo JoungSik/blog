@@ -16,17 +16,14 @@ date: 2021-10-05T03:05:09+09:00
 ## Work Skills
 
 - Ruby / Ruby On Rails
+- Go / Echo
 - React
 - React Native
-- JavaScript
+- JavaScript / TypeScript
 - Java / Android
 - Python / Selenium
 - Docker
-
-## Hobby Skills
-
-- Go
-- TypeScript
+- AWS
 
 ------
 
@@ -38,4 +35,4 @@ date: 2021-10-05T03:05:09+09:00
 - [Fortune Crawler](https://github.com/JoungSik/fortune-crawler): fortune crawler for bamboo bot
 - [github-style](https://github.com/JoungSik/github-style): A project that modified [github-style](https://github.com/MeiK2333/github-style) fork.
 - [LinkCloud](https://github.com/JoungSik/LinkCloud): Services that store, manage, and share links. (API Server)
-- [LinkCloud-Web(ing..)](https://github.com/JoungSik/LinkCloud-web): Services that store, manage, and share links. (WEB Client)
+- [LinkCloud-Web](https://github.com/JoungSik/LinkCloud-web): Services that store, manage, and share links. (WEB Client)
