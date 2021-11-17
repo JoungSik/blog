@@ -37,11 +37,10 @@
 ------
 
 ## Side Projects (Public)
+[![LinkCloud](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=LinkCloud&theme=dark&show_owner=true)](https://github.com/JoungSik/LinkCloud)
+[![github-style](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=github-style&theme=dark&show_owner=true)](https://github.com/JoungSik/github-style)
 [![KakaoBot](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=KakaoBot&theme=dark&show_owner=true)](https://github.com/JoungSik/KakaoBot)
 [![fortune-crawler](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=fortune-crawler&theme=dark&show_owner=true)](https://github.com/JoungSik/fortune-crawler)
-[![github-style](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=github-style&theme=dark&show_owner=true)](https://github.com/JoungSik/github-style)
-[![LinkCloud](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=LinkCloud&theme=dark&show_owner=true)](https://github.com/JoungSik/LinkCloud)
-[![LinkCloud-web](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=LinkCloud-web&theme=dark&show_owner=true)](https://github.com/JoungSik/LinkCloud-web)
 
 ## Side Projects (Private)
 
