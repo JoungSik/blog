@@ -2,7 +2,7 @@
 
 | Company          | Date              |
 | ---------------- | ----------------- |
-| MadxCompany      | 2019.05 ~         |
+| MadxCompany      | 2019.05 ~ 2021.12 |
 | INNORIX          | 2018.03 ~ 2019.01 |
 | The Ventures Lab | 2014.01 ~ 2016.10 |
 
