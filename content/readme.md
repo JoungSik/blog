@@ -33,16 +33,3 @@
 ### Tools
 ![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![aws](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-------
-
-## Side Projects (Public)
-[![LinkCloud](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=LinkCloud&theme=dark&show_owner=true)](https://github.com/JoungSik/LinkCloud)
-[![github-style](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=github-style&theme=dark&show_owner=true)](https://github.com/JoungSik/github-style)
-[![KakaoBot](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=KakaoBot&theme=dark&show_owner=true)](https://github.com/JoungSik/KakaoBot)
-[![fortune-crawler](https://github-readme-stats.vercel.app/api/pin/?username=JoungSik&repo=fortune-crawler&theme=dark&show_owner=true)](https://github.com/JoungSik/fortune-crawler)
-
-## Side Projects (Private)
-
-- [After](https://github.com/JoungSik/After): gift for mother, Android application to send business cards automatically after a phone call.
-- [bamboobot](https://github.com/IT-DNMS/bamboobot): [node-kakao](https://github.com/storycraft/node-kakao) based KakaoTalk open channel bot 
