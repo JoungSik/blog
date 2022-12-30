@@ -11,4 +11,5 @@ Hugo 로 만들어진 github pages 블로그 입니다.
 4. Write post
 
 ### Deploy
-Runing `deploy.sh`
+1. `hugo -t github-style` (rendering posts)
+2. `deploy.sh`
