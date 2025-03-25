@@ -1,0 +1,43 @@
+name: Deploy Hugo site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout blog repo
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: Build with Hugo
+        run: hugo -t github-style
+
+      - name: Checkout destination repo
+        uses: actions/checkout@v3
+        with:
+          repository: ${{ github.actor }}/${{ github.actor }}.github.io
+          token: ${{ secrets.TOKEN }}
+          path: .gh-pages
+
+      - name: Copy files
+        run: |
+          rm -rf .gh-pages/*
+          cp -r public/* .gh-pages/
+          cd .gh-pages
+          git config user.name "${{ github.actor }}"
+          git config user.email "tjstlr2010@gmail.com"
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Deploy from blog repo - ${{ github.sha }}"
+          git push

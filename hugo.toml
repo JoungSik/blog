@@ -1,0 +1,62 @@
+baseURL = 'https://joungsik.github.io/'
+languageCode = 'ko-kr'
+title = 'JoungSik'
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+enableRobotsTXT = true
+
+[params]
+  author = "JoungSik"
+  description = "Software Developer"
+  github = "JoungSik"
+  facebook = "100002406291053"
+  instagram = "main_jskim"
+  linkedin = "joungsik"
+  email = "tjstlr2010@gmail.com"
+  url = "https://joungsik.github.io"
+  keywords = "ruby, golang, ruby on rails, programming"
+  rss = true
+  lastmod = true
+  userStatusEmoji = "🛠️"
+  favicon = "/images/github-mark-white.png"
+  avatar = "https://avatars.githubusercontent.com/u/6128807?v=4"
+  headerIcon = "/images/github-mark-white.png"
+  location = "Seoul"
+  enableSearch = true
+  enableGitalk = true
+  custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
+[params.gitalk]
+  clientID = "Your client ID"
+  clientSecret = "Your client secret"
+  repo = "repo"
+  owner = "MeiK2333"
+  admin = "MeiK2333"
+  id = "location.pathname"
+  labels = "gitalk"
+  perPage = 15
+  pagerDirection = "last"
+  createIssueManually = true
+  distractionFreeMode = false
+
+[outputs]
+  home = ["html", "json"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
+
+[frontmatter]
+  lastmod = ["lastmod", ":fileModTime", ":default"]
+
+[services]
+  [services.googleAnalytics]
+    ID = "G-DL4SWDGV72"
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5

@@ -1,0 +1,26 @@
+# Hugo 기본 무시 파일
+public/
+resources/
+.hugo_build.lock
+
+# OS 생성 파일
+.DS_Store
+Thumbs.db
+
+# IDE 및 편집기 설정
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node 모듈 (테마에서 사용될 수 있음)
+node_modules/
+
+# Hugo 빌드/배포 관련
+.env
+.netlify
+
+# 임시 파일
+tmp/
+temp/
