@@ -1,10 +1,11 @@
 baseURL = 'https://joungsik.github.io/'
 languageCode = 'ko-kr'
-title = 'JoungSik'
+title = 'Joungsik의 기술 블로그'
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 enableRobotsTXT = true
+titleCaseStyle = "Chicago"
 
 [params]
   author = "JoungSik"
@@ -26,7 +27,7 @@ enableRobotsTXT = true
   enableSearch = true
   enableGitalk = true
   custom_css = ["css/custom.css"]
-  custom_js = ["js/custom.js"]
+  custom_js = ["js/application.js"]
 
 [params.gitalk]
   clientID = "Your client ID"
@@ -52,11 +53,7 @@ enableRobotsTXT = true
 [frontmatter]
   lastmod = ["lastmod", ":fileModTime", ":default"]
 
-[services]
-  [services.googleAnalytics]
-    ID = "G-DL4SWDGV72"
-
 [sitemap]
-  changefreq = "daily"
-  filename = "sitemap.xml"
+  changefreq = "weekly"
   priority = 0.5
+  filename = "sitemap.xml"
