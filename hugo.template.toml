@@ -30,11 +30,11 @@ titleCaseStyle = "Chicago"
   custom_js = ["js/application.js"]
 
 [params.gitalk]
-  clientID = "Your client ID"
-  clientSecret = "Your client secret"
-  repo = "repo"
-  owner = "MeiK2333"
-  admin = "MeiK2333"
+  clientID = "${GITALK_CLIENT_ID}"
+  clientSecret = "${GITALK_CLIENT_SECRET}"
+  repo = "joungsik.github.io"
+  owner = "JoungSik"
+  admin = "JoungSik"
   id = "location.pathname"
   labels = "gitalk"
   perPage = 15

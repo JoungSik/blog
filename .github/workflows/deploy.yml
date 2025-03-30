@@ -21,6 +21,15 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Install envsubst
+        run: sudo apt-get install gettext-base
+
+      - name: Generate hugo.toml from template
+        run: |
+          export GITALK_CLIENT_ID="${{ secrets.GITALK_CLIENT_ID }}"
+          export GITALK_CLIENT_SECRET="${{ secrets.GITALK_CLIENT_SECRET }}"
+          envsubst < hugo.template.toml > hugo.toml
+
       - name: Build with Hugo
         run: hugo -t github-style
 
@@ -39,5 +48,5 @@ jobs:
           git config user.name "${{ github.actor }}"
           git config user.email "tjstlr2010@gmail.com"
           git add .
-          git diff-index --quiet HEAD || git commit -m "Deploy from blog repo - ${{ github.sha }}"
+          git diff-index --quiet HEAD || git commit -m "${{ github.event.head_commit.message }}"
           git push
