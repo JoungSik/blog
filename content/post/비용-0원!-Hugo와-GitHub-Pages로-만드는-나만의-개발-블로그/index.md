@@ -1,6 +1,6 @@
 ---
 title: "비용 0원! Hugo와 GitHub Pages로 만드는 나만의 개발 블로그"
-slug: ""
+slug: "비용-0원!-Hugo와-GitHub-Pages로-만드는-나만의-개발-블로그"
 date: 2025-04-03T07:51:07+09:00
 draft: false
 pin: false
