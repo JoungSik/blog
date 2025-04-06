@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-slug: "{{ .Name }}"
+slug: "{{ replace .Name " " "-" }}"
 date: {{ .Date }}
 draft: true
 pin: false
