@@ -1,7 +1,7 @@
 ---
 title: "무료로 이메일 보내기: Google SMTP 서버 설정 방법"
 slug: "무료로-이메일-보내기-google-smtp-서버-설정-방법"
-date: 2024-03-24T15:00:00+09:00
+date: 2025-03-24T15:00:00+09:00
 draft: false
 pin: false
 summary: "Google SMTP 서버를 활용하여 무료로 안전하게 이메일을 보내는 방법을 단계별로 알아봅니다."
