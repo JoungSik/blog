@@ -17,10 +17,4 @@
     script.async = true;
     script.src = 'https://www.googletagmanager.com/gtag/js?id=G-DL4SWDGV72';
     document.head.appendChild(script);
-
-    // Google Search Console 검증 메타 태그 추가
-    var meta = document.createElement('meta');
-    meta.name = 'google-site-verification';
-    meta.content = 'ZhHIVCwwyr8IOQEUsdcXIm9VAFTh4FkyaYSdVY2O0Tc';
-    document.head.appendChild(meta);
 })();
