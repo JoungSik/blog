@@ -5,8 +5,8 @@ date: 2025-03-24T15:00:00+09:00
 draft: false
 pin: false
 summary: "Google SMTP 서버를 활용하여 무료로 안전하게 이메일을 보내는 방법을 단계별로 알아봅니다."
-keywords: ["이메일", "Google SMTP"]
-tags: ["Google SMTP", "이메일", "Gmail", "SMTP 설정"]
+keywords: ["이메일", "Google SMTP", "Gmail", "SMTP 설정"]
+tags: ["Google SMTP"]
 ---
 
 ## 시작하며

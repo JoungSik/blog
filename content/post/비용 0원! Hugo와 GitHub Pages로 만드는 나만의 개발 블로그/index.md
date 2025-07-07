@@ -6,7 +6,7 @@ draft: false
 pin: false
 summary: "Hugo와 GitHub Pages를 사용하여 비용 없이 개인 개발 블로그를 만드는 방법을 단계별로 설명합니다. GitHub 저장소 생성, Hugo 설치, 콘텐츠 작성, 테마 적용, 배포 과정을 다룹니다."
 keywords: ["Hugo", "GitHub Pages", "개발 블로그", "무료 블로그", "정적 사이트 생성기", "gh-pages", "Markdown", "테마", "배포"]
-tags: ["Hugo", "GitHub Pages", "Blog", "Tutorial"]
+tags: ["Hugo", "GitHub Pages", "Blog"]
 ---
 
 ## 시작하며

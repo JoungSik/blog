@@ -1,0 +1,64 @@
+/* Diff syntax highlighting styles */
+.highlight .gd {
+    color: #d73a49;
+    background-color: #ffeef0;
+}
+
+.highlight .gi {
+    color: #28a745;
+    background-color: #f0fff4;
+}
+
+.highlight .gd .x {
+    color: #d73a49;
+    background-color: #fdb8c0;
+}
+
+.highlight .gi .x {
+    color: #28a745;
+    background-color: #acf2bd;
+}
+
+/* Dark mode diff syntax highlighting */
+@media (prefers-color-scheme: dark) {
+    .highlight .gd {
+        color: #f85149;
+        background-color: #67060c;
+    }
+
+    .highlight .gi {
+        color: #56d364;
+        background-color: #0f5132;
+    }
+
+    .highlight .gd .x {
+        color: #f85149;
+        background-color: #86181d;
+    }
+
+    .highlight .gi .x {
+        color: #56d364;
+        background-color: #2ea043;
+    }
+}
+
+/* Manual dark mode class support */
+.dark .highlight .gd {
+    color: #f85149;
+    background-color: #67060c;
+}
+
+.dark .highlight .gi {
+    color: #56d364;
+    background-color: #0f5132;
+}
+
+.dark .highlight .gd .x {
+    color: #f85149;
+    background-color: #86181d;
+}
+
+.dark .highlight .gi .x {
+    color: #56d364;
+    background-color: #2ea043;
+}

@@ -6,7 +6,7 @@ draft: false
 pin: false
 summary: "Hugo 블로그의 글 작성 후 Github Actions를 활용한 자동 배포 설정 방법을 알아봅니다."
 keywords: ["Hugo", "Github Actions", "CI/CD", "블로그", "자동화", "Github Pages"]
-tags: ["Hugo", "Github Actions", "CI/CD"]
+tags: ["Hugo", "Github Actions"]
 ---
 
 ## 시작하며
