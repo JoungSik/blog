@@ -8,8 +8,8 @@
 | The Ventures Lab | 2014.01 ~ 2016.10 |
 
 ### Site
-- [Blog](https://joungsik.github.io/)
-- [projects](https://projects.joungsik.com)
+- [blog](https://joungsik.github.io/)
+- [redmine](https://redmine.joungsik.com)
 
 ### Social
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tjstlr2010@gmail.com)
@@ -27,7 +27,3 @@
 
 ### Frameworks
 ![rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
-
-### Tools
-![docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
-![aws](https://img.shields.io/badge/Amazon_AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
