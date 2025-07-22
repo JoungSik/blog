@@ -2,7 +2,7 @@
 
 | Company          | Date              |
 | ---------------- | ----------------- |
-| BrainCommerce    | 2022.03 ~         |
+| BrainCommerce    | 2022.03 ~ 2025.07 |
 | MadxCompany      | 2019.05 ~ 2021.12 |
 | INNORIX          | 2018.03 ~ 2019.01 |
 | The Ventures Lab | 2014.01 ~ 2016.10 |
