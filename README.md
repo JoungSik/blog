@@ -50,6 +50,11 @@ hugo -t github-style
 hugo server -D
 ```
 
+6. 글 생성
+```bash
+hugo new content/post/your-post-title/index.md
+```
+
 `http://localhost:1313`에서 블로그를 확인할 수 있습니다.
 
 ## 🚀 배포
