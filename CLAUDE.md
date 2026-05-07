@@ -106,3 +106,11 @@ Each post should be in its own directory under `content/post/` with:
 - Uses Gitalk for comments (requires GitHub OAuth app configuration)
 - Google Analytics integration with development environment exclusion
 - Automated deployment to GitHub Pages via separate repository
+
+## MCP 자동 호출 규칙
+
+### Redmine
+- 프로젝트 ID: `3`
+- 프로젝트 identifier: `blog`
+- 프로젝트 URL: https://redmine.joungsik.com/projects/blog
+- 이슈 검색/조회 시 `project_id` 파라미터에 `3` 또는 `blog` 사용
