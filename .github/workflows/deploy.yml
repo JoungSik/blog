@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout blog repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           submodules: true
           fetch-depth: 0
 
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
@@ -34,7 +34,7 @@ jobs:
         run: hugo -t github-style
 
       - name: Checkout destination repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           repository: ${{ github.actor }}/${{ github.actor }}.github.io
           token: ${{ secrets.TOKEN }}
