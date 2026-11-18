@@ -10,7 +10,9 @@
 
 ### Site
 - [blog](https://joungsik.github.io/)
-- [redmine](https://redmine.joungsik.com)
+- [my-claude-skills](https://github.com/JoungSik/my-claude-skills)
+- [console](https://console.joungsik.com)
+- [banjiha](https://js-banjiha.cloud/)
 
 ### Social
 [![gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:tjstlr2010@gmail.com)
